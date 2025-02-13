@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 6563106904280664019}
   - component: {fileID: 6136121115092038955}
   - component: {fileID: 4506828701261975118}
+  - component: {fileID: -1254551975875028872}
   m_Layer: 0
   m_Name: P1
   m_TagString: Player1
@@ -199,7 +200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  moveForce: 50
+  moveForce: 250
   jumpForce: 10
   maxSpeed: 5
 --- !u!114 &4196864749850771876
@@ -233,7 +234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  jumpForce: 7
+  jumpForce: 10
   gravityScale: 2
   maxHealth: 100
 --- !u!114 &6563106904280664019
@@ -478,3 +479,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-1254551975875028872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6576322326092646139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13551d11c0015874eb241a4217136e20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickUpKey: q
+  pickupRange: 3
+  ItemLayer:
+    serializedVersion: 2
+    m_Bits: 64
