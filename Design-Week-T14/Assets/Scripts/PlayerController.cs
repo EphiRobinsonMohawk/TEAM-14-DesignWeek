@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -137,5 +138,10 @@ public class PlayerController : MonoBehaviour
         {
             weaponObject = null;
         }
+    }
+
+    internal void TakeDamage(int v, Vector2 vector2)
+    {
+        throw new NotImplementedException();
     }
 }
