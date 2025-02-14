@@ -19,9 +19,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void LoadSceneLowFidPrototype()
+    public void LoadSceneLevel3()
     {
-        SceneManager.LoadScene("Scenes/LowFidelityPrototype");
+        SceneManager.LoadScene("Scenes/Level 3");
         Time.timeScale = 1;
     }
     public void LoadSceneHomeScreen()
@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            LoadSceneLowFidPrototype();
+            LoadSceneLevel3();
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
