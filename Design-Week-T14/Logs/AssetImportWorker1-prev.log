@@ -16,9 +16,15 @@ C:/Users/ephir/OneDrive/Documents/GitHub/TEAM-14-DesignWeek/Design-Week-T14
 Logs/AssetImportWorker1.log
 -srvPort
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 50260
 Successfully changed project path to: S:/TEAM-14-DesignWeek/Design-Week-T14
 S:/TEAM-14-DesignWeek/Design-Week-T14
+=======
+54379
+Successfully changed project path to: C:/Users/ephir/OneDrive/Documents/GitHub/TEAM-14-DesignWeek/Design-Week-T14
+C:/Users/ephir/OneDrive/Documents/GitHub/TEAM-14-DesignWeek/Design-Week-T14
+>>>>>>> Stashed changes
 =======
 54379
 Successfully changed project path to: C:/Users/ephir/OneDrive/Documents/GitHub/TEAM-14-DesignWeek/Design-Week-T14
@@ -56,6 +62,7 @@ C:/Users/ephir/OneDrive/Documents/GitHub/TEAM-14-DesignWeek/Design-Week-T14
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Player connection [16272]  Target information:
 
 Player connection [16272]  * "[IP] 10.0.0.32 [Port] 0 [Flags] 2 [Guid] 958833241 [EditorId] 958833241 [Version] 1048832 [Id] WindowsEditor(7,Stout) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
@@ -69,10 +76,19 @@ Player connection [23092]  Target information:
 
 Player connection [23092]  * "[IP] 10.10.6.50 [Port] 0 [Flags] 2 [Guid] 2457208748 [EditorId] 2457208748 [Version] 1048832 [Id] WindowsEditor(7,Ephi-s_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
+=======
+Player connection [23092]  Target information:
+
+Player connection [23092]  * "[IP] 10.10.6.50 [Port] 0 [Flags] 2 [Guid] 2457208748 [EditorId] 2457208748 [Version] 1048832 [Id] WindowsEditor(7,Ephi-s_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+>>>>>>> Stashed changes
 Player connection [23092] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [23092] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 Refreshing native plugins compatible for Editor in 7.15 ms, found 4 plugins.
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.45f1 (a13dfa44d684)
@@ -89,6 +105,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
 Begin MonoManager ReloadAssembly
@@ -114,11 +131,25 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling: 457ms
 	BeginReloadAssembly (76ms)
 >>>>>>> Stashed changes
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004658 seconds.
+- Loaded All Assemblies, in  0.264 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.194 seconds
+Domain Reload Profiling: 457ms
+	BeginReloadAssembly (76ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (9ms)
@@ -166,6 +197,30 @@ Domain Reload Profiling: 457ms
 			ProcessInitializeOnLoadAttributes (110ms)
 			ProcessInitializeOnLoadMethodAttributes (35ms)
 >>>>>>> Stashed changes
+=======
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (108ms)
+		LoadAssemblies (75ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (95ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (195ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (160ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (110ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -174,6 +229,7 @@ Domain Reload Profiling: 457ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 - Loaded All Assemblies, in  0.532 seconds
 Native extension for WindowsStandalone target not found
@@ -189,10 +245,19 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling: 1244ms
 	BeginReloadAssembly (117ms)
 >>>>>>> Stashed changes
+=======
+- Loaded All Assemblies, in  0.615 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.631 seconds
+Domain Reload Profiling: 1244ms
+	BeginReloadAssembly (117ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		CreateAndSetChildDomain (14ms)
 	RebuildCommonClasses (23ms)
@@ -228,25 +293,50 @@ Domain Reload Profiling: 1244ms
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (503ms)
 >>>>>>> Stashed changes
+=======
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (432ms)
+		LoadAssemblies (302ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (137ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (631ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (503ms)
+>>>>>>> Stashed changes
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			BeforeProcessingInitializeOnLoad (67ms)
 			ProcessInitializeOnLoadAttributes (348ms)
 			ProcessInitializeOnLoadMethodAttributes (72ms)
 			AfterProcessingInitializeOnLoad (5ms)
 =======
+=======
+>>>>>>> Stashed changes
 			BeforeProcessingInitializeOnLoad (68ms)
 			ProcessInitializeOnLoadAttributes (353ms)
 			ProcessInitializeOnLoadMethodAttributes (69ms)
 			AfterProcessingInitializeOnLoad (4ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 2.14 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -257,10 +347,17 @@ Total: 4.112600 ms (FindLiveObjects: 0.351200 ms CreateObjectMapping: 0.123200 m
 =======
 Refreshing native plugins compatible for Editor in 3.56 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+=======
+Refreshing native plugins compatible for Editor in 3.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+>>>>>>> Stashed changes
 Unloading 6177 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 35 unused Assets / (347.1 KB). Loaded Objects now: 6645.
 Memory consumption went from 229.6 MB to 229.2 MB.
 Total: 3.221700 ms (FindLiveObjects: 0.309300 ms CreateObjectMapping: 0.173500 ms MarkObjects: 2.591600 ms  DeleteObjects: 0.145800 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -279,6 +376,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   Time since last request: 248.939452 seconds.
   path: Assets/Scripts/New/GameMANAGER.cs
@@ -561,6 +659,26 @@ Start importing Assets/Settings/Renderer2D.asset using Guid(424799608f7334c24bf3
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
+=======
+  Time since last request: 103920.056496 seconds.
+  path: Assets/Prefab/P2.prefab
+  artifactKey: Guid(bfb24c9e42c5fcf44a5c337ad0e614ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/P2.prefab using Guid(bfb24c9e42c5fcf44a5c337ad0e614ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '97db660734e4d672f0dc7463076362d5') in 0.249002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Settings/Renderer2D.asset
+  artifactKey: Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Renderer2D.asset using Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd663c059c0c3e4a34b42cdeef97d3e04') in 0.001070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+>>>>>>> Stashed changes
 Received Import Request.
   Time since last request: 0.000103 seconds.
   path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
@@ -570,4 +688,7 @@ Start importing Assets/Settings/Lit2DSceneTemplate.scenetemplate using Guid(d03e
  -> (artifact id: '2e1079a3db36f112938c32b4deba890a') in 0.060898 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 5
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
